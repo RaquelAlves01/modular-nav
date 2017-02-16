@@ -46,4 +46,18 @@ nav a:hover {
   color: #fff;
 }
 
+@media only screen and (min-width: 38em) {
+
+  nav li {
+    text-align: right;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  header h1 {
+    text-align: left;
+  }
+
 }

@@ -11,6 +11,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -20,11 +21,14 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 header {
   background-color: #e2e2e2;
+}
+
+.wrap-div {
+  text-align: center;
 }
 
 nav ul {
@@ -55,6 +59,10 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .wrap-div {
+    text-align: right;
+  }
 
   header h1 {
     text-align: left;

@@ -45,6 +45,11 @@ nav a {
   color: #0074d9;
 }
 
+.current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
 nav a:hover {
   background-color: #0074d9;
   color: #fff;
@@ -52,7 +57,7 @@ nav a:hover {
 
 @media only screen and (min-width: 38em) {
 
-  nav li {
+  .nav {
     text-align: right;
     display: inline-block;
   }
